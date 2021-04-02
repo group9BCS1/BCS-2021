@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74ef3332-8633-4cb2-8aa5-67770baca8d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter3/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/exercise2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.exercise2">
+  <component name="RunManager" selected="Python.exercise3">
     <configuration name="exercise1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BCS-2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,9 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exercise3" />
         <item itemvalue="Python.exercise2" />
         <item itemvalue="Python.exercise5" />
-        <item itemvalue="Python.exercise3" />
         <item itemvalue="Python.practice" />
         <item itemvalue="Python.exercise1" />
       </list>

@@ -6,7 +6,7 @@ try:
   pay = hours * rate
   if hours <= 40:
     print('Pay: ', pay)
-  else:d
+  else:
     pay_above_40 = (40* rate + (hours-40)*1.5*rate)
     print ('Pay =', pay_above_40)
 except:
