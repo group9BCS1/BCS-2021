@@ -10,6 +10,6 @@ try:
   elif float(attendants) > 0 and float(attendants) <= 50:
     print('$4,000')
   else:
-    print('Enter a digit')
+    print('Enter an appropriate number of attendants')
 except:
-    print('Enter a digit')
+    print('Enter an appropriate number of attendants')

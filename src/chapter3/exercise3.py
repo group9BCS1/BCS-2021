@@ -1,14 +1,17 @@
-score = float(input('Enter a score between 0.0 and 1.0:'))
-if score >= 0.0 and score <= 1.0:
-  if score >= 0.9:
+score = input('Enter a score between 0.0 and 1.0:')
+try:
+  float(score)
+  if float(score) >= 0.9 and float(score) <= 1.0:
     print('A')
-  elif score >= 0.8:
+  elif float(score) >= 0.8 and float(score) <= 0.9:
     print('B')
-  elif score >= 0.7:
+  elif float(score) >= 0.7 and float(score) <= 0.8:
     print('C')
-  elif score >= 0.6:
+  elif float(score) >= 0.6 and float(score) <= 0.7:
     print('D')
-  else:
+  elif float(score) > 0 and float(score) <= 0.6:
     print('F')
-else:
-    print('Error!, enter a number between 0.0 and 1.0')
+  else:
+    print('Bad score')
+except:
+    print('Bad score')
