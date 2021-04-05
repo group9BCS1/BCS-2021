@@ -1,3 +1,5 @@
+#This program prompts the user for hours and rate and outputs their pay
+
 # Prompt the user to enter the hours
 hours = float(input('Enter Hours: '))
 
