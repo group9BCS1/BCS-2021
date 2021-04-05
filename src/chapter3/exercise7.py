@@ -1,5 +1,5 @@
 #This program lets a user enter the “location” and “pay”
-#It then evaluates what John’s decision
+#It then evaluates what John’s decision will be
 
 #This prompts the user to enter their location
 location = str(input('Enter the location: '))
