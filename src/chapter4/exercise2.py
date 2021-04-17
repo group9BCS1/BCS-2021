@@ -13,7 +13,7 @@ t = int(input('Enter the number of years until maturation(t): '))
 n = int(input('Enter the number of times the interest is compounded per year(n): '))
 
 def investment(C, r, n, t):
-    p = str(round(C * (((1 + (r/n)) ** (t*n))), 2))
+    p = round(C * (((1 + (r/n)) ** (t*n))), 2)
     print('The final value of the investment to the nearest penny is: ', p)
     return p
 investment(C, r, n, t)
