@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74ef3332-8633-4cb2-8aa5-67770baca8d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter4/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/exercise6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/bob.py" />
   </component>
-  <component name="RunManager" selected="Python.bob">
+  <component name="RunManager" selected="Python.exercise2 (1)">
     <configuration name="bob" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BCS-2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bob" />
         <item itemvalue="Python.exercise2 (1)" />
+        <item itemvalue="Python.exercise6" />
+        <item itemvalue="Python.bob" />
         <item itemvalue="Python.exercise8" />
         <item itemvalue="Python.exercise7" />
-        <item itemvalue="Python.exercise6" />
       </list>
     </recent_temporary>
   </component>
