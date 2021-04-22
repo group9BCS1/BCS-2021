@@ -1,3 +1,13 @@
+#This is exercise3 for Group9BCS
+"""Group 9 members
+1. WESONGA BOB 2020/BCS/092/PS
+2. ARYAZAYO KEITH 2020/BCS/022/PS
+3. MAYANJA ROBERT 2020/BCS/043/PS
+4. OGENA ALLAN PAUL 2020/BCS/003
+"""
+#22nd April,2021
+#This is a program that will stimulate a simple change maker for a vending machine
+
 # creating function to accept deposit
 def deposit():
     purchase_price(price1)
