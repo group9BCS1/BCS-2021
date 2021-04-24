@@ -1,17 +1,19 @@
-total = 0
+#This program prompts the user for numbers and prints
+# out the total, count,and average of the numbers
+sum = 0
 count = 0
-avg = 0
-
+average = 0
 while True:
-    x = input('Enter a number: ')
-    try:
-        x = int(x)
-        total = total + x
-        count = count + 1
-        avg = total/count      
-    except:
-        if x == 'done':                     #when user types done, total, number of values entered and average is printed
-            print(total, count, avg)
-            break
-        else:
-            print('Invalid input')
+  try:
+    #prompts the user for a number
+    x = input("Enter a number: ")
+    if x == "done":
+     break
+    value = int(x)
+    sum = value + sum
+    count = count + 1
+    average = sum / count
+  except:
+    print("Invalid input")
+print(sum, count, average)
+

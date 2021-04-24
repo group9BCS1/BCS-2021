@@ -1,6 +1,9 @@
+#This program prompts the user for numbers and prints the maximum and minimum of
+#the numbers
 count = 0
 numbers = []
 while True:
+    # prompts the user for a number
     line = input("Enter a number: ")
     try:
         line = int(line)
