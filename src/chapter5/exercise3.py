@@ -173,6 +173,7 @@ while True:
                 continue  
         else:
             print("Illegal price: Must be a non-negative multiple of 5 cents.")
+            continue
     except:
         print("Invalid input!")
         continue
