@@ -1,3 +1,8 @@
+#This is the midterm for group9BCS1
+#This program computes and displays information for a utility company which supplies water to its
+# customers. For a specified customer, the program will compute and display the amount of money which
+#the customer will be billed for water usage during the current billing period
+
 def gallons(meter_read1,meter_read2):    #this function is for getting the number of gallons is water used
     if meter_read2 > meter_read1:
         gallon = (meter_read2 - meter_read1)/10
@@ -11,7 +16,7 @@ def gallons(meter_read1,meter_read2):    #this function is for getting the numbe
 
 #the program starts here
 while True:
-    code = input("Enter code: ")       #user code is fed
+    code = input("Enter customer code: ")       #user code is fed
     if code == "r" or code == "R":
         meter_read1 = int(input("Enter beginning meter reading: "))
         meter_read2 =  int(input("Enter ending meter reading: "))
