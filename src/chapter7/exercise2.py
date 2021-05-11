@@ -11,8 +11,6 @@ for line in fhand:
       count +=1
       confidence = float(line[20:26])
       confidencesum += confidence
-
 averageconfidence =  confidencesum/count
-
 print ("Average spam confidence: ", str(averageconfidence))
 
