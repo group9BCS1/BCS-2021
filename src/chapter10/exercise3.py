@@ -1,7 +1,7 @@
 fname = input('Enter file name: ')
 try:
     fhand = open(fname)
-except FileNotFoundError:
+except:
     print('File cannot be opened:', fname)
     exit()
 
